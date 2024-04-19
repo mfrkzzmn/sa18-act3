@@ -1,0 +1,29 @@
+[
+    {
+        "model": "myapp.product",
+        "pk": 1,
+        "fields": {
+            "name": "Lexas ex-300",
+            "description": "My first car.",
+            "price": 3999.99
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 2,
+        "fields": {
+            "name": "Nissan RS",
+            "description": "My second car.",
+            "price": 19999.99
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 3,
+        "fields": {
+            "name": "Toyata Rav4",
+            "description": "My latest car.",
+            "price": 49999.99
+        }
+    }
+]

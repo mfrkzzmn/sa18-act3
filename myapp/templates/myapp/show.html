@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Store</title>
+</head>
+<body>
+{% if product %}
+<div style="display: grid; place-content: center">
+    <h3>Product deatils:</h3>
+    <p> Name: {{ product.name }} </p><br>
+    <p> Price: {{ product.price }} </p> <br>
+    <p> Description: {{ product.description }} </p>
+
+{% else %}
+<p>There is no product with this product Id.</p>
+{% endif %}
+</div>
+</body>
+
+</html>
